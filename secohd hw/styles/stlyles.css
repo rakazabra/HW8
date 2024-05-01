@@ -2,5 +2,50 @@ table {
     border: 1px solid;
 }
 
-tr.highlight:hover {
-    color: #00ff37};
+    .home1 {
+        background-color: blue;
+    }
+
+    .home2 {
+        background-color: green;
+    }
+
+    .home3 {
+        background-color: aqua;
+    }
+
+    .home4 {
+        background-color: blueviolet;
+    }
+
+    .home5 {
+        background-color: rgb(0, 255, 234);
+    }
+
+    .home6 {
+        background-color: cadetblue;
+    }
+
+    .home1:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .home2:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .home3:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .home4:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .home5:hover {
+        background-color: rgb(0, 0, 0);
+    }
+
+    .home6:hover {
+        background-color: rgb(0, 0, 0);
+    }
