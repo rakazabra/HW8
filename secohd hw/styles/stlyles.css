@@ -2,25 +2,7 @@ table {
     border: 1px solid;
 }
 
-    .home1 {
-        background-color: blue;
-    }
 
-    .home2 {
-        background-color: green;
-    }
-
-    .home3 {
-        background-color: aqua;
-    }
-
-    .home4 {
-        background-color: blueviolet;
-    }
-
-    .home5 {
-        background-color: rgb(0, 255, 234);
-    }
 
     .home6 {
         background-color: cadetblue;
@@ -48,4 +30,24 @@ table {
 
     .home6:hover {
         background-color: rgb(0, 0, 0);
+    }
+    
+    tr:nth-child(even) td {
+        background-color: rgba(0, 0, 0, 0.1);
+    }
+    
+    tr:nth-child(odd) td {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+    
+    td:first-child {
+        background-color: blue;
+    }
+    
+    td:nth-child(2) {
+        color: rgb(248, 16, 16);
+    }
+
+    td:nth-child(-n+1) {
+        color: pink;
     }
